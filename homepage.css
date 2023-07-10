@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 20vh;
+    background-image: url(comida.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+.cabecalho-primeiro{
+    display: flex;
+    justify-content: space-between;
+    padding: 1vw;
+
+}
+
+h1{
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 3px black;
+}
+
+.primeiro_nav{
+    width: 45vw;
+    border: 1px solid black;
+    font-size: 12px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.primeiro_nav__link{
+    text-decoration: none;
+    color: white;
+}
+
+.imagem_cabecalho{
+    width: 3vw;
+}
+
+.cabecalho-segundo{
+    margin-top: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.segunda__nav-link{
+    font-size: 8vw;
+    text-transform: uppercase;
+}
+
+/* main abaixo */
+
+.primeira-sessao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+h3{
+    width: 38vw;
+    text-align: center;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+.primeira-sessao_paragrafo{
+    text-align: center;
+    width: 90vw;
+    font-size: 10px;
+}
+
+#primeira-sessao_botao{
+    width: 20vw;
+    background-color: #3b3131;
+    border: none;
+    border-radius: 2px;
+    height: 2.5vh;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-bottom: 3vh;
+}
+
+.segunda-sessao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.imagens_sessao{
+    width: 33.3vw;
+    min-height: 20vh;
+    object-fit: cover;
+}
+ /* footer abaixo */
+
+ footer{
+    height: 3vh;
+    background-color: black;
+ }
+
+ /*  mobile abaixo */
+
+@media screen and (max-widht: 700px) {
+    h1{
+        font-size: 40px;
+    }
+
+    .primeiro_nav{
+        font-size: 25px;
+    }
+
+    .cabecalho-segundo{
+        margin-top: 8vh;
+        gap: 30px;
+    }
+}
